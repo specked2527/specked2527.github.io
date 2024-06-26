@@ -3,11 +3,11 @@
   "short_name": "Blog",
   "description": "A",
   "icons": [{
-    "src": "/pwa/img/43383_WGhBhkmb.png",
+    "src": "/img/43383_WGhBhkmb.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "/pwa/img/43383_WGhBhkmb.png",
+    "src": "/img/43383_WGhBhkmb.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
