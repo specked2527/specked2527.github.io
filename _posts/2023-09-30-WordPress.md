@@ -31,7 +31,6 @@ tags:								#标签
 <!-- wp:quote -->
 
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
->
 
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
 
@@ -65,17 +64,7 @@ tags:								#标签
 
 <!-- /wp:heading -->
 
-<!-- wp:spacer {"height":"60px"} -->
-
 <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
-
-<!-- /wp:spacer -->
-
-<!-- wp:columns {"align":"wide"} -->
-
-<div class="wp-block-columns alignwide"><!-- wp:column -->
-
-<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
 
 <p class="has-x-large-font-size" style="line-height:1.2">有任何预订建议吗？		</p>
 
@@ -105,8 +94,6 @@ tags:								#标签
 <p>以上局域网，无公网ip需要内网穿透软件<br>外网 有公网ip需要路由器ddns端口转发<br>开机 通过外网路由器管理地址 远程唤醒<br>关机 juicessh连接电脑的外网地址 输入：shutdown /p，然后回车，就会立即关机，</p>
   
  # 硬盘损坏？视频文件变0字节，且无法打开  
-
-
 <p>而且很多视频文件大小，不知为什么变0字节，且无法打开</p>
 
 <!-- /wp:paragraph -->
@@ -272,6 +259,7 @@ tags:								#标签
 
 <figure class="wp-block-image size-large"><img src="https://image.coolapk.com/feed/2023/0916/14/2451026\_6313eb09\_6832\_91\_803@720x1440.jpeg.m.jpg" alt=""/></figure>
 
+# 
 <p><a href="http://w.timeout.bio:8080/2023/09/21/%e8%bf%9c%e7%a8%8b%e5%bc%80%e6%9c%ba%e5%85%b3%e6%9c%ba/">远程开机关机</a></p>
 
 <p><a href="https://www.coolapk.com/feed/49365965?shareKey=OTQwYTBlYWI2YjcxNjUwYzExZWM~&amp;shareUid=2451026&amp;shareFrom=com.coolapk.market\_13.3.3#fromHistory">面板图片</a></p>
