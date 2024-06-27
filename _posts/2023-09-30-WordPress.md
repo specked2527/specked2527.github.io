@@ -10,8 +10,7 @@ tags:								#标签
     - 生活
 ---
   
-
-# 关于
+# 关于  
 
 <p>你得到你付出的代价 现在我只剩下负债</p>
 
@@ -88,14 +87,8 @@ tags:								#标签
 
 <div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button\_\_link wp-element-button" href="http://w.timeout.bio:8080/%e6%96%b0%e9%a1%b5%e9%9d%a2/">查看文章</a></div>
 
-<!-- /wp:button -->
 
-<!-- wp:button {"fontSize":"small"} -->
-
-  
 # 远程开机关机  
-
-
 
 <p>关机<br>Windows 10 开启ssh服务<br>OpenSSH SSH Server<br>手机使用 juicessh 连接电脑用户名＋密码<br>直接在命令行输入：shutdown /p，然后回车，就会立即关机，</p>
 
