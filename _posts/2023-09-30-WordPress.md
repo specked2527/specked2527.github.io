@@ -11,7 +11,7 @@ tags:								#标签
 ---
   
 
-# `  关于	`  
+# 关于
 
 <p>你得到你付出的代价 现在我只剩下负债</p>
 
@@ -32,14 +32,7 @@ tags:								#标签
 <!-- wp:quote -->
 
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
-
-<p><a href="https://t.me/honeyAlice">Telegram </a></p>
-
-<!-- /wp:paragraph --></blockquote>
-
-<!-- /wp:quote -->
-
-<!-- wp:quote -->
+>
 
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
 
