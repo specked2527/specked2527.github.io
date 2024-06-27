@@ -62,15 +62,7 @@ tags:								#标签
 
 <h2 class="wp-block-heading">欢迎</h2>
 
-<!-- /wp:heading -->
-
-<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
-
-<p class="has-x-large-font-size" style="line-height:1.2">有任何预订建议吗？		</p>
-
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons -->
+<p class="has-x-large-font-size" style="line-height:1.2">有任何预订建议吗?</p>
 
 <div class="wp-block-buttons"><!-- wp:button {"fontSize":"small"} -->
 
@@ -259,7 +251,8 @@ tags:								#标签
 
 <figure class="wp-block-image size-large"><img src="https://image.coolapk.com/feed/2023/0916/14/2451026\_6313eb09\_6832\_91\_803@720x1440.jpeg.m.jpg" alt=""/></figure>
 
-# 
+# 教程  
+
 <p><a href="http://w.timeout.bio:8080/2023/09/21/%e8%bf%9c%e7%a8%8b%e5%bc%80%e6%9c%ba%e5%85%b3%e6%9c%ba/">远程开机关机</a></p>
 
 <p><a href="https://www.coolapk.com/feed/49365965?shareKey=OTQwYTBlYWI2YjcxNjUwYzExZWM~&amp;shareUid=2451026&amp;shareFrom=com.coolapk.market\_13.3.3#fromHistory">面板图片</a></p>
