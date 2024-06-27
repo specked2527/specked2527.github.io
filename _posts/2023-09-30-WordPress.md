@@ -15,20 +15,7 @@ tags:								#标签
 <p>你得到你付出的代价 现在我只剩下负债</p>
 
 
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
-
-<!-- /wp:separator -->
-
-<!-- wp:paragraph -->
-
 <p>联系方式</p>
-
-<!-- /wp:paragraph -->
-
-<!-- wp:quote -->
-
-<blockquote class="wp-block-quote"><!-- wp:paragraph -->
 
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
 
@@ -56,15 +43,13 @@ tags:								#标签
 
 <!-- wp:paragraph -->
 
-<p>建议您转到<a href="http://w.timeout.bio:8080/wp-admin/">祝您使用愉快！</a></p>
-
 <h2 class="wp-block-heading">欢迎</h2>
 
 <p class="has-x-large-font-size" style="line-height:1.2">有任何预订建议吗?</p>
 
 <div class="wp-block-buttons"><!-- wp:button {"fontSize":"small"} -->
 
-<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button\_\_link wp-element-button" href="http://w.timeout.bio:8080/%e6%96%b0%e9%a1%b5%e9%9d%a2/">查看文章</a></div>
+<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button\_\_link wp-element-button" href="http://w.timeout.bio:8080/%e6%96%b0%e9%a1%b5%e9%9d%a2/">查看文章</a></div>,
 
     
  # 远程开机关机  
