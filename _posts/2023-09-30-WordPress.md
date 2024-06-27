@@ -14,9 +14,7 @@ tags:								#标签
 
 <p>你得到你付出的代价 现在我只剩下负债</p>
 
-<!-- /wp:paragraph -->
 
-<!-- wp:separator {"className":"is-style-wide"} -->
 
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 
@@ -88,6 +86,8 @@ tags:								#标签
 
       
  # 硬盘损坏？视频文件变0字节，且无法打开    
+
+ 
 <p>而且很多视频文件大小，不知为什么变0字节，且无法打开</p>
 
 
@@ -250,8 +250,10 @@ tags:								#标签
 
 <figure class="wp-block-image size-large"><img src="https://image.coolapk.com/feed/2023/0916/14/2451026\_6313eb09\_6832\_91\_803@720x1440.jpeg.m.jpg" alt=""/></figure>
 
+
     
 # 教程  
+
 
     
 <p><a href="http://w.timeout.bio:8080/2023/09/21/%e8%bf%9c%e7%a8%8b%e5%bc%80%e6%9c%ba%e5%85%b3%e6%9c%ba/">远程开机关机</a></p>
