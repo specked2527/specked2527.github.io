@@ -9,8 +9,9 @@ https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90
 能防止gfw国内打不开你的网站
 * 需要购买一个域名 Name.com
 * 注册cdn账户https://dash.cloudflare.com/
-* 以下是简化操作 如有疑问自行搜索
-  * 在Name.com删除域名dns解析>填写Cloudflare 名称服务器>
+
+以下是简化操作 如有疑问自行搜索
+  * 在Name.com删除域名dns解析>填写Cloudflare 名称服务器
   * 在Cloudflare dns添加>
 ```
 类型
@@ -24,12 +25,15 @@ specked2527.github.io (填你的)
 管理自定义域
 在 GitHub 上，导航到站点的仓库。
 
-在存储库名称下，单击 “设置”。 如果看不到“设置”选项卡，请选择“”下拉菜单，然后单击“设置”********。
-
-存储库标头的屏幕截图，其中显示了选项卡。 “设置”选项卡以深橙色边框突出显示。
+> 在存储库名称下，单击 “设置”。 如果看不到“设置”选项卡，请选择“”下拉菜单，然后单击“设置”********。
+>
+> 存储库标头的屏幕截图，其中显示了选项卡。 “设置”选项卡以深橙色边框突出显示。
 在边栏的“代码和自动化”部分中，单击“ Pages”。
-
-在“自定义域”下，键入自定义域，然后单击“保存”。 如`gg.timefail.xyz`
+>
+> 在“自定义域”下，键入自定义域，然后单击“保存”。 如`gg.timefail.xyz`  
+>
+> 参考https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site?platform=windows#configuring-a-subdomain
+>
 
 # 补充
 PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked2527.github.io](https://specked2527.github.io/)  
