@@ -1,10 +1,11 @@
-
+# 样式
+[specked2527.github.io](https://specked2527.github.io/)  
 # 教程
 https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B  
 你也可以fork我的  
 
 # 补充
-PC网页模式 右上角About 的齿轮图标  可以设置你的地址 specked2527.github.io  
+PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked2527.github.io](https://specked2527.github.io/)  
 
 如何写文章？https://markdown.com.cn/basic-syntax/ 
 * 在 _posts 的文件夹中。创建一个新文件 
@@ -31,3 +32,4 @@ tags:								#标签
 ```
 在 img 文件夹中可以上传图片 在 header-img: img/这里填写图片名称.jpg 
 * 主页、关于、标签的背景图也是如此 如about.html、 tags.html
+* 你的github最大只有1 GB容量，所以图片上传前最好先压缩
