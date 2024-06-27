@@ -29,4 +29,5 @@ tags:								#标签
 
 进入你的博客主页，新的文章将会出现在你的主页上.
 ```
-在 img 文件夹中可以上传图片 在 header-img: img/这里填写图片名称
+在 img 文件夹中可以上传图片 在 header-img: img/这里填写图片名称.jpg 
+* 主页、关于、标签的背景图也是如此 如about.html、 tags.html
