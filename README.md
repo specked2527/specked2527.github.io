@@ -3,13 +3,16 @@
 [cdn加速版:gg.timefail.xyz](https://gg.timefail.xyz/)  
 
 如果不喜欢 自己搜索其他的 如
-https://github.com/lemonchann/lemonchann.github.io
+https://github.com/lemonchann/lemonchann.github.io  
+https://github.com/jiwenxing/hexo-blog  
+https://github.com/tomstillcoding/tomstillcoding.github.io  
+都是fork就能用  
 
 # 教程
-https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B  
+https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程  
 你也可以fork我的  
 
-# cdn加速
+# cdn加速 (可选,你可以不操作这部分)
 能防止gfw国内打不开你的网站
 * 需要购买一个域名 Name.com
 * 注册cdn账户https://dash.cloudflare.com/
