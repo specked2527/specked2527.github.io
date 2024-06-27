@@ -1,6 +1,10 @@
 # 样式
 [specked2527.github.io](https://specked2527.github.io/)  
-[cdn加速版:gg.timefail.xyz](https://gg.timefail.xyz/)
+[cdn加速版:gg.timefail.xyz](https://gg.timefail.xyz/)  
+
+如果不喜欢 自己搜索其他的 如
+https://github.com/lemonchann/lemonchann.github.io
+
 # 教程
 https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B  
 你也可以fork我的  
