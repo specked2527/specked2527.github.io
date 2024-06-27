@@ -92,8 +92,6 @@ tags:								#标签
 
 <!-- wp:button {"fontSize":"small"} -->
 
-<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button\_\_link wp-element-button" href="https://t.me/honeyAlice">
-
 # `远程开机关机`
 
 
