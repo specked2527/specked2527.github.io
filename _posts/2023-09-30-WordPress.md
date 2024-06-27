@@ -68,7 +68,7 @@ tags:								#标签
 
 <div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button\_\_link wp-element-button" href="http://w.timeout.bio:8080/%e6%96%b0%e9%a1%b5%e9%9d%a2/">查看文章</a></div>
 
-
+    
  # 远程开机关机  
 
 <p>关机<br>Windows 10 开启ssh服务<br>OpenSSH SSH Server<br>手机使用 juicessh 连接电脑用户名＋密码<br>直接在命令行输入：shutdown /p，然后回车，就会立即关机，</p>
@@ -84,13 +84,12 @@ tags:								#标签
 <!-- wp:paragraph -->
 
 <p>以上局域网，无公网ip需要内网穿透软件<br>外网 有公网ip需要路由器ddns端口转发<br>开机 通过外网路由器管理地址 远程唤醒<br>关机 juicessh连接电脑的外网地址 输入：shutdown /p，然后回车，就会立即关机，</p>
-  
- # 硬盘损坏？视频文件变0字节，且无法打开  
+
+
+      
+ # 硬盘损坏？视频文件变0字节，且无法打开    
 <p>而且很多视频文件大小，不知为什么变0字节，且无法打开</p>
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 <p>坏了 硬盘要挂了吗 两个盘符都有相同的日志</p>
 
@@ -251,8 +250,10 @@ tags:								#标签
 
 <figure class="wp-block-image size-large"><img src="https://image.coolapk.com/feed/2023/0916/14/2451026\_6313eb09\_6832\_91\_803@720x1440.jpeg.m.jpg" alt=""/></figure>
 
+    
 # 教程  
 
+    
 <p><a href="http://w.timeout.bio:8080/2023/09/21/%e8%bf%9c%e7%a8%8b%e5%bc%80%e6%9c%ba%e5%85%b3%e6%9c%ba/">远程开机关机</a></p>
 
 <p><a href="https://www.coolapk.com/feed/49365965?shareKey=OTQwYTBlYWI2YjcxNjUwYzExZWM~&amp;shareUid=2451026&amp;shareFrom=com.coolapk.market\_13.3.3#fromHistory">面板图片</a></p>
