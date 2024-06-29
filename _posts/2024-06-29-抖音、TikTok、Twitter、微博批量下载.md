@@ -5,7 +5,7 @@ subtitle:   教程 #副标题
 date:       2024-06-29			# 时间
 author:     specked2527			# 作者
 header-img: img/IMG_20240613_174502_796.jpg 	#这篇文章标题背景图片
-catalog: true 						  # 是否归档
+catalog: true 				    # 是否归档
 tags:			- 生活		   #标签
     
 --- 
