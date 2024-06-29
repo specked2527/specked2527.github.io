@@ -17,8 +17,7 @@ tags:
   * 如果你安装Python时忘记勾选
     * - [x] Add Python.exe to PATH。 https://blog.csdn.net/l15668952150/article/details/124571667
 
-# 安装方式 
-
+# 安装方式
 1. 打开powershell 输入
 ```
  pip install f2    
@@ -34,8 +33,7 @@ tags:
 输入
 `pip install f2-0.0.1.6-py3-none-any.whl`
 
-# 使用方式 
-
+# 使用方式
   1. 单链接下载
   * 左下角windows图标右键打开powershell 输入`f2 dy --init-config dy.yaml` 
     在你的powershell显示的 PS C:\Users\x> 位置在C:\Users\x\ 这里的dy.yaml 用记事本打开
@@ -83,8 +81,7 @@ proxies:
 ```
    :10809是我的代理端口，你要填你自己的，自行搜索你的代理软件默认端口
 
- # 其他 
- 
+ # 其他
  除了抖音，TikTok、Twitter、微博也是同样的操作下载
  * 输入 `f2 -h` 就能看到对应的缩写 
    * 如 `f2 wb` 就能看到对应的说明 
@@ -92,6 +89,5 @@ proxies:
  * 这说明这功能还没有写，不能用
 
  # 你还可以在手机上使用
-
  电脑安装配置后可以在手机使用（电脑安装ssh服务，手机安装ssh软件如JuiceSSH，打电脑开文件共享，手机安装es文件管理，或其他文件软件，就可以查看在电脑的下载文件
  ![343198751-27d559ad-f9a2-4ac1-a830-fe566118cd95.jpg](https://s2.loli.net/2024/06/29/uGYINLkwzCZTRDP.jpg)
