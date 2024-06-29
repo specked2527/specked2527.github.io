@@ -35,8 +35,8 @@ tags:
   1. 单链接下载
   * 左下角windows图标右键打开powershell 输入`f2 dy --init-config dy.yaml` 
     在你的powershell显示的 PS C:\Users\x> 位置在C:\Users\x\ 这里的dy.yaml 用记事本打开
-    把`mode: null` 改为 `mode: one` 保存 
-    * powershell 输入`f2 dy -c dy.yaml -u ""` 回车后 按下回车旁边的方向键↑ （你就可以每次按下回车旁边的方向键↑掉用了）
+    把 `mode: null` 改为 `mode: one` 保存 
+    * powershell 输入 `f2 dy -c dy.yaml -u ""` 回车后 按下回车旁边的方向键↑ （你就可以每次按下回车旁边的方向键↑掉用了）
       输入 `f2 dy -c dy.yaml -u "把要下载的链接，按鼠标右键粘贴到这里"`
       如  `f2 dy -c dy.yaml -u "5.30 01/22 L@W.zg gOx:/ 庭中三千梨花树 再无一朵入我心。# 和服👘 # 和服少女  https://v.douyin.com/i6DHBfdx/ 复制此链接，打开Dou音搜索，直接观看视频！" `
 
@@ -60,14 +60,10 @@ tags:
   * 在dy.yaml 根据你的模式 `mode: post` 把 `url: null`改为 `url: 把主页的链接，按鼠标右键粘贴到这里` 保存
     * 输入 `f2 dy -c dy.yaml` 就可以直接下载 
 
-
-
- # 登入方式 
+ - 登入方式 
  
    * 你需要登入才能下载，在edge浏览器登入抖音后，完全关闭浏览器，注意右下角托盘图标里面的也要全部关闭
     输入 `f2 dy -c app.yaml --auto-cookie edge` 
-
-
 
  # 注意 
  
@@ -82,8 +78,6 @@ proxies:
       https://: http://127.0.0.1:10809
 ```
    :10809是我的代理端口，你要填你自己的，自行搜索你的代理软件默认端口
-
-
 
  # 其他
  除了抖音，TikTok、Twitter、微博也是同样的操作下载
