@@ -30,8 +30,7 @@ tags:
 
 2. 手动下载
 在[版本](https://github.com/Johnserf-Seed/f2/releases)下载[.whl](https://github.com/Johnserf-Seed/f2/releases/download/v0.0.1.6/f2-0.0.1.6-py3-none-any.whl) 
-
-在下载[.whl]的文件夹,键盘 shift + 鼠标右键，选择 在此处打开powershell 
+* 在下载[.whl]的文件夹,键盘 shift + 鼠标右键，选择 在此处打开powershell 
 输入
 `pip install f2-0.0.1.6-py3-none-any.whl`
 
@@ -66,7 +65,7 @@ tags:
   * 在dy.yaml 根据你的模式 这里是主页 `mode: post` 把 `url: null`改为 `url: 把主页的链接，按鼠标右键粘贴到这里` 保存
     * 输入 `f2 dy -c dy.yaml` 就可以直接下载
 
- #### 登入方式 
+ # 登入方式 
    * 你需要登入才能下载，在edge浏览器登入抖音后，完全关闭浏览器，注意右下角托盘图标里面的也要全部关闭
     输入 `f2 dy -c app.yaml --auto-cookie edge` 
  
