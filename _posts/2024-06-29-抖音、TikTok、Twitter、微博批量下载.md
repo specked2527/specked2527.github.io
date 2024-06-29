@@ -12,12 +12,14 @@ tags:
 --- 
 
 # 开始之前
+
 - 必须安装Python 版本≥3.8.2 https://www.python.org/downloads/
 * 并添加环境变量Python
   * 如果你安装Python时忘记勾选
     * - [x] Add Python.exe to PATH。 https://blog.csdn.net/l15668952150/article/details/124571667
 
 # 安装方式 选择一个
+
 1. 打开powershell 输入
 ```
  pip install f2    
@@ -26,12 +28,14 @@ tags:
 `pip install -U f2 `
 
 2. 手动下载
+
 在[版本](https://github.com/Johnserf-Seed/f2/releases)下载[.whl](https://github.com/Johnserf-Seed/f2/releases/download/v0.0.1.6/f2-0.0.1.6-py3-none-any.whl) 
 在下载[.whl]的文件夹,键盘 shift + 鼠标右键，选择 在此处打开powershell 
 输入
 `pip install f2-0.0.1.6-py3-none-any.whl`
 
 # 使用方式
+
   1. 单链接下载
   * 左下角windows图标右键打开powershell 输入`f2 dy --init-config dy.yaml` 
     在你的powershell显示的 PS C:\Users\x> 位置在C:\Users\x\ 这里的dy.yaml 用记事本打开
@@ -80,6 +84,7 @@ proxies:
    :10809是我的代理端口，你要填你自己的，自行搜索你的代理软件默认端口
 
  # 其他
+ 
  除了抖音，TikTok、Twitter、微博也是同样的操作下载
  * 输入 `f2 -h` 就能看到对应的缩写 
    * 如 `f2 wb` 就能看到对应的说明 
