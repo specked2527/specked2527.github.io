@@ -94,6 +94,7 @@ tags:
 # 代理软件设置
     * 如果只下载抖音，微博,就暂时把它关掉 
      * 不然你就要设置conf.yaml文件，配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
+     
    * `pip show f2`展示配置文件的位置
      
    > 你可以看到每个应用:都有`proxies:`,你需要哪个代理就填哪个应用
