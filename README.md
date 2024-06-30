@@ -37,7 +37,8 @@ specked2527.github.io (填你的)
 185.199.110.153
 185.199.111.153
 ```
-
+最后长这样
+![类似](https://github.com/specked2527/specked2527.github.io/blob/master/20200418102632865.png)
 管理自定义域
 在 GitHub 上，导航到站点的仓库。
 
