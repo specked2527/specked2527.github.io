@@ -41,7 +41,7 @@ tags:
     把 `mode: null` 改为 `mode: one` 保存 
     * powershell 输入 `f2 dy -c dy.yaml -u ""`
       回车后 按下回车旁边的方向键↑ （你就可以每次按下回车旁边的方向键↑掉用了）
-      输入 `f2 dy -c dy.yaml -u "把要下载的链接，按鼠标右键粘贴到这里"`
+      输入 `f2 dy -c dy.yaml -u "链接"`
       
       如  `f2 dy -c dy.yaml -u "5.30 01/22 L@W.zg gOx:/ 庭中三千梨花树 再无一朵入我心。# 和服👘 # 和服少女  https://v.douyin.com/i6DHBfdx/ 复制此链接，打开Dou音搜索，直接观看视频！" `
 
@@ -62,6 +62,7 @@ tags:
     * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把主页的链接，按鼠标右键粘贴到这里"` 
 
 # 另外一种方式 
+## 选择一个
   * 在dy.yaml 根据你的模式 这里是主页 `mode: post` ,把 `url: null`改为 `url: 把主页的链接，按鼠标右键粘贴到这里` 保存
     * 输入 `f2 dy -c dy.yaml` 就可以直接下载主页 其他模式也是如此
       
@@ -72,9 +73,12 @@ tags:
         interval: all
     ```
 
-       * 输入 `f2 dy -u "把链接，按鼠标右键粘贴到这里"` 就可以直接下载单链接 其他模式也是如此 
+       * 输入 `f2 dy -u "链接"` 就可以直接下载单链接 其他模式也是如此 
          * 配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
-           * `pip show f2`展示配置文件的位置 
+           * `pip show f2`展示配置文件的位置
+             
+ * 使用参数 `-M one -M post -M like -M collection` 详情输入 `f2 dy -h` 查看
+   * 单链接模式 `f2 dy -M one -u "链接"`
   
 # 登入方式 
    * 你需要登入才能下载，在edge浏览器登入抖音后，完全关闭浏览器，注意右下角托盘图标里面的也要全部关闭
