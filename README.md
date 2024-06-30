@@ -1,6 +1,6 @@
 # 样式
 [specked2527.github.io](https://specked2527.github.io/)  
-[cdn加速版 gg.timefail.xyz](https://gg.timefail.xyz/)  
+[cdn加速版  gg.timefail.xyz](https://gg.timefail.xyz/)  
 
 如果不喜欢 自己搜索其他的 如
 https://github.com/lemonchann/lemonchann.github.io  
@@ -20,6 +20,7 @@ https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程
 以下是简化操作 如有疑问自行搜索
   * 在Name.com删除域名dns解析>填写Cloudflare 名称服务器
   * 在Cloudflare dns添加>
+    CNAME
 ```
 类型
 CNAME
@@ -29,6 +30,14 @@ root 使用 @
 目标 （必需）
 specked2527.github.io (填你的)
 ```
+添加这四个解析到IP地址的A记录
+```
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+```
+
 管理自定义域
 在 GitHub 上，导航到站点的仓库。
 
