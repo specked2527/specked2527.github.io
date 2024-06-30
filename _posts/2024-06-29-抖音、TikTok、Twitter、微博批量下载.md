@@ -62,7 +62,7 @@ tags:
     * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把主页的链接，按鼠标右键粘贴到这里"` 
 
 # 另外一种方式 
-## 选择一个
+### `f2 dy -c dy.yaml`
   * 在dy.yaml 根据你的模式 这里是主页 `mode: post` ,把 `url: null`改为 `url: 把主页的链接，按鼠标右键粘贴到这里` 保存
     * 输入 `f2 dy -c dy.yaml` 就可以直接下载主页 其他模式也是如此
       
@@ -72,11 +72,13 @@ tags:
         mode: one
         interval: all
     ```
-
+    
+### `f2 dy -u "链接"`
        * 输入 `f2 dy -u "链接"` 就可以直接下载单链接 其他模式也是如此 
          * 配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
            * `pip show f2`展示配置文件的位置
-             
+           
+### `f2 dy -M one -u "链接"`             
  * 使用参数 `-M one -M post -M like -M collection` 详情输入 `f2 dy -h` 查看
    * 单链接模式 `f2 dy -M one -u "链接"`
   
