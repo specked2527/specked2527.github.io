@@ -11,8 +11,7 @@ tags:
     
 --- 
 
-# 建议看[github版本的](https://github.com/specked2527/specked2527.github.io/blob/master/_posts/2024-06-29-%E6%8A%96%E9%9F%B3%E3%80%81TikTok%E3%80%81Twitter%E3%80%81%E5%BE%AE%E5%8D%9A%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD.md)
-这个博客显示效果不正常
+[github版本说明](https://github.com/specked2527/specked2527.github.io/blob/master/_posts/2024-06-29-%E6%8A%96%E9%9F%B3%E3%80%81TikTok%E3%80%81Twitter%E3%80%81%E5%BE%AE%E5%8D%9A%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD.md)
 
 # 开始之前
 - 必须安装Python 版本≥3.8.2 https://www.python.org/downloads/
@@ -85,9 +84,16 @@ tags:
     输入 `f2 dy -c app.yaml --auto-cookie edge` 
  
 # 注意 
-   * 代理软件设置，如果只下载抖音，就暂时把它关掉 
-   不然你就要设置conf.yaml文件，配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
-   * `pip show f2`展示配置文件的位置 
+##  [SSL: WRONG_VERSION_NUMBER]
+    * wrong version number (_ssl.c:1007)
+    * v2rayn把链接阻止了🚫
+    * 设置pac代理模式,或者把被阻止链接添加到路由规则直连
+    
+# 代理软件设置
+    * 如果只下载抖音，微博,就暂时把它关掉 
+     * 不然你就要设置conf.yaml文件，配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
+   * `pip show f2`展示配置文件的位置
+   > 你可以看到每个应用:都有`proxies:`,你需要哪个代理就填哪个应用
 
    把 `proxies:` 改成 
 ```py
@@ -100,7 +106,8 @@ proxies:
 # 其他 
  除了抖音，TikTok、Twitter、微博也是同样的操作下载
  * 输入 `f2 -h` 就能看到对应的缩写 
-   * 如 `f2 wb` 就能看到对应的说明 
+   * 如 `f2 wb` 就能看到对应的说明
+   *  
  如果出现类似 `Error: No such command 'lrb'`
  * 这说明这功能还没有写，不能用
  
