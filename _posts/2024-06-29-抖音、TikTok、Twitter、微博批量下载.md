@@ -93,6 +93,7 @@ tags:
     * 如果只下载抖音，微博,就暂时把它关掉 
      * 不然你就要设置conf.yaml文件，配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
    * `pip show f2`展示配置文件的位置
+     
    > 你可以看到每个应用:都有`proxies:`,你需要哪个代理就填哪个应用
 
    把 `proxies:` 改成 
@@ -107,7 +108,7 @@ proxies:
  除了抖音，TikTok、Twitter、微博也是同样的操作下载
  * 输入 `f2 -h` 就能看到对应的缩写 
    * 如 `f2 wb` 就能看到对应的说明
-   *  
+
  如果出现类似 `Error: No such command 'lrb'`
  * 这说明这功能还没有写，不能用
  
