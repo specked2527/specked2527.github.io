@@ -86,18 +86,17 @@ tags:
     输入 `f2 dy -c app.yaml --auto-cookie edge` 
  
 # 注意 
-##  [SSL: WRONG_VERSION_NUMBER]
-    * wrong version number (_ssl.c:1007)
-    * v2rayn把链接阻止了🚫
-    * 设置pac代理模式,或者把被阻止链接添加到路由规则直连
+##  [SSL: WRONG_VERSION_NUMBER] 
+wrong version number (_ssl.c:1007)
+* v2rayn把链接阻止了
+* 设置pac代理模式,或者把被阻止链接添加到路由规则直连
     
 # 代理软件设置
-
-    * 如果只下载抖音，微博,就暂时把它关掉 
-     * 不然你就要设置conf.yaml文件，配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
+* 如果只下载抖音，微博,就暂时把它关掉 
+    * 不然你就要设置conf.yaml文件，配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
    * `pip show f2`展示配置文件的位置
      
-   > 你可以看到每个应用:都有`proxies:`,你需要哪个代理就填哪个应用
+> 你可以看到每个应用:都有`proxies:`,你需要哪个代理就填哪个应用
 
    把 `proxies:` 改成 
 ```py
