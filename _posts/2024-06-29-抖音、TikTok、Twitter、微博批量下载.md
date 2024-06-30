@@ -65,16 +65,16 @@ tags:
   * 在dy.yaml 根据你的模式 这里是主页 `mode: post` ,把 `url: null`改为 `url: 把主页的链接，按鼠标右键粘贴到这里` 保存
     * 输入 `f2 dy -c dy.yaml` 就可以直接下载主页 其他模式也是如此
       
-  * 在app.yaml 根据你的模式 这里是单链接 `mode: one`,在`douyin:`下按格式添加
+  * 在app.yaml 根据你的模式 这里是单链接 `mode: one`,在`douyin:`下面 按格式添加
   
     ```py
-mode: one
-interval: all
+        mode: one
+        interval: all
     ```
 
-   * 输入 `f2 dy -u "把链接，按鼠标右键粘贴到这里"` 就可以直接下载单链接 其他模式也是如此 
-     * 配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
-       * `pip show f2`展示配置文件的位置 
+       * 输入 `f2 dy -u "把链接，按鼠标右键粘贴到这里"` 就可以直接下载单链接 其他模式也是如此 
+         * 配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
+           * `pip show f2`展示配置文件的位置 
   
 # 登入方式 
    * 你需要登入才能下载，在edge浏览器登入抖音后，完全关闭浏览器，注意右下角托盘图标里面的也要全部关闭
