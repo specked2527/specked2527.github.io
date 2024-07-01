@@ -1,5 +1,6 @@
+
 # 样式
-[specked2527.github.io](https://specked2527.github.io/)  
+[specked2527.github.io](http://specked2527.github.io/)  
 [cdn加速版  gg.timefail.xyz](https://gg.timefail.xyz/)  
 
 如果不喜欢 自己搜索其他的 如
