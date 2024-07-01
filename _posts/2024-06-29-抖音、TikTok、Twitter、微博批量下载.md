@@ -12,8 +12,7 @@ tags:
 --- 
 
 [github版本说明](https://github.com/specked2527/specked2527.github.io/blob/master/_posts/2024-06-29-%E6%8A%96%E9%9F%B3%E3%80%81TikTok%E3%80%81Twitter%E3%80%81%E5%BE%AE%E5%8D%9A%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD.md)
-
-![](https://private-user-images.githubusercontent.com/40727745/319704062-82644596-7eca-48ec-91b0-3c5e4c24ee90.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk3NzEwNTQsIm5iZiI6MTcxOTc3MDc1NCwicGF0aCI6Ii80MDcyNzc0NS8zMTk3MDQwNjItODI2NDQ1OTYtN2VjYS00OGVjLTkxYjAtM2M1ZTRjMjRlZTkwLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjMwVDE4MDU1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE0YjUzNTgyNWZlNWY1NzA0ZDNlOTEzYjA0YTZhZjA0M2UxM2I3ODE4MWRlNTExNGFkZDg4ZGM0ODBjZjhlMzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.KC5kdi420zOf80no8_J4B1oJ0ChucvurwzsLxIDaFck)
+<img src='https://github.com/Johnserf-Seed/f2/assets/40727745/82644596-7eca-48ec-91b0-3c5e4c24ee90'>
 
 # 开始之前
 - 必须安装Python 版本≥3.8.2 https://www.python.org/downloads/
