@@ -40,7 +40,12 @@ tags:
 如果出现任何报错,尝试更新python或pip版本
 * `pip install -i https://pypi.tuna.tsinghua.edu.cn/simple f2`
 
+# 登入方式 
+   * 你需要登入才能下载，在edge浏览器登入抖音后，完全关闭浏览器，注意右下角托盘图标里面的edge也要全部关闭
+    输入 `f2 dy -c app.yaml --auto-cookie edge`
+
 # 使用方式
+#### `f2 dy -c dy.yaml -u ""`
   1. 单链接下载
   * 左下角windows图标右键打开powershell 输入`f2 dy --init-config dy.yaml` 
     在你的powershell显示的 PS C:\Users\x> 位置在C:\Users\x\ 这里的dy.yaml 用记事本打开
@@ -63,7 +68,7 @@ tags:
      * 把dy.yaml 的 `mode: null` 改为 `mode: live` 保存
        输入 `f2 dy -c dy.yaml -u "把直播的链接，按鼠标右键粘贴到这里"` 
 
-  你可以把模式`mode: one` `mode: post` `mode: like` `mode: live`分别保存为4个文件 名字随意
+  你可以把dy.yaml 的模式`mode: one` `mode: post` `mode: like` `mode: live`分别保存为4个文件 名字随意
   * 如 1.yaml 2··3·· 
     * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把主页的链接，按鼠标右键粘贴到这里"` 
 
@@ -86,10 +91,6 @@ tags:
  * 使用参数 `-M one -M post -M like -M collection` 详情输入 `f2 dy -h` 查看
    * 单链接模式 `f2 dy -M one -u "链接"`
   
-# 登入方式 
-   * 你需要登入才能下载，在edge浏览器登入抖音后，完全关闭浏览器，注意右下角托盘图标里面的也要全部关闭
-    输入 `f2 dy -c app.yaml --auto-cookie edge` 
- 
 # 注意 
 ####  [SSL: WRONG_VERSION_NUMBER] 
 
@@ -99,10 +100,10 @@ wrong version number (_ssl.c:1007)
     
 # 代理软件设置
 * 如果只下载抖音，微博,就暂时把它关掉 
-    * 不然你就要设置conf.yaml文件，配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
+   * 不然你就要设置conf.yaml文件，配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
    * `pip show f2`展示配置文件的位置
      
-> 你可以看到每个应用:都有`proxies:`,你需要哪个代理就填哪个应用
+> 你可以看到每个 应用: 都有`proxies:`,你需要哪个代理就填哪个应用
 
    把 `proxies:` 改成 
 ```py
@@ -116,6 +117,11 @@ proxies:
 #### 除了抖音，TikTok、Twitter、微博也是同样的操作下载
  * 输入 `f2 -h` 就能看到对应的缩写 
    * 如 `f2 wb` 就能看到对应的说明
+* 每个应用都要输入一次`f2 应用 --init-config 随意文件名.yaml`
+  * 创建yaml文件后，就不用再次输入
+   * 如 `f2 wb --init-config wb.yaml`
+* 不这么做的话你就只能使用 `f2 应用 -M 模式 -u "链接"`
+   * 如 `f2 dy -M one -u "链接"`
 
 #### 如果出现类似 `Error: No such command 'lrb'`
  * 这说明这功能还没有写，不能用
