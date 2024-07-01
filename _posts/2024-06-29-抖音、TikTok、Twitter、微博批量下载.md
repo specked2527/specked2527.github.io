@@ -113,11 +113,11 @@ proxies:
    :10809是我的代理端口，你要填你自己的，自行搜索你的代理软件默认端口
  
 # 其他 
- 除了抖音，TikTok、Twitter、微博也是同样的操作下载
+#### 除了抖音，TikTok、Twitter、微博也是同样的操作下载
  * 输入 `f2 -h` 就能看到对应的缩写 
    * 如 `f2 wb` 就能看到对应的说明
 
- 如果出现类似 `Error: No such command 'lrb'`
+#### 如果出现类似 `Error: No such command 'lrb'`
  * 这说明这功能还没有写，不能用
  
 # 你还可以在手机上使用
