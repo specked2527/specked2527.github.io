@@ -122,6 +122,9 @@ proxies:
    * 如 `f2 wb --init-config wb.yaml`
 * 不这么做的话你就只能使用 `f2 应用 -M 模式 -u "链接"`
    * 如 `f2 dy -M one -u "链接"`
+* 你还需要登入网站,记得吗?
+ * 输入 `f2 应用 -c app.yaml --auto-cookie edge`
+ * 如 `f2 dy -c app.yaml --auto-cookie edge`
 
 #### 如果出现类似 `Error: No such command 'lrb'`
  * 这说明这功能还没有写，不能用
