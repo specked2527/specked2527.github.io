@@ -12,6 +12,7 @@ tags:
 --- 
 
 [github版本说明](https://github.com/specked2527/specked2527.github.io/blob/master/_posts/2024-06-29-%E6%8A%96%E9%9F%B3%E3%80%81TikTok%E3%80%81Twitter%E3%80%81%E5%BE%AE%E5%8D%9A%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD.md)
+[官网](https://johnserf-seed.github.io/f2/)
 <img src='https://github.com/Johnserf-Seed/f2/assets/40727745/82644596-7eca-48ec-91b0-3c5e4c24ee90'>
 
 # 开始之前
@@ -33,6 +34,9 @@ tags:
 * 在下载[.whl]的文件夹,键盘 shift + 鼠标右键，选择 在此处打开powershell 
 输入
 `pip install f2-0.0.1.6-py3-none-any.whl`
+
+如果出现任何报错,尝试更新python或pip版本
+* `pip install -i https://pypi.tuna.tsinghua.edu.cn/simple f2`
 
 # 使用方式
   1. 单链接下载
