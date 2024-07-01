@@ -11,7 +11,7 @@ tags:
     
 --- 
 
-[github版本说明](https://github.com/specked2527/specked2527.github.io/blob/master/_posts/2024-06-29-%E6%8A%96%E9%9F%B3%E3%80%81TikTok%E3%80%81Twitter%E3%80%81%E5%BE%AE%E5%8D%9A%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD.md)
+[github版本显示](https://github.com/specked2527/specked2527.github.io/blob/master/_posts/2024-06-29-%E6%8A%96%E9%9F%B3%E3%80%81TikTok%E3%80%81Twitter%E3%80%81%E5%BE%AE%E5%8D%9A%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD.md)
 [官网](https://johnserf-seed.github.io/f2/)
 [常见问题与解决办法](https://johnserf-seed.github.io/f2/question-answer/qa.html)
 <img src='https://github.com/Johnserf-Seed/f2/assets/40727745/82644596-7eca-48ec-91b0-3c5e4c24ee90'>
@@ -91,7 +91,8 @@ tags:
     输入 `f2 dy -c app.yaml --auto-cookie edge` 
  
 # 注意 
-##  [SSL: WRONG_VERSION_NUMBER] 
+####  [SSL: WRONG_VERSION_NUMBER] 
+
 wrong version number (_ssl.c:1007)
 * v2rayn把链接阻止了
 * 设置pac代理模式,或者把被阻止链接添加到路由规则直连
