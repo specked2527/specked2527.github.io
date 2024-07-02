@@ -21,11 +21,12 @@ https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程
 网站图标：
 在 img 目录下找到删除并替换 favicon.ico 这个图标即可，图标尺寸为32x32。
 
-评论：（不想开启评论的话把config.yml 的 # Gitalk下面）
+评论：
 创建 Github Application https://github.com/settings/applications/new
 Application name随便填昵称
 Homepage URL和Authorization callback URL填你的网站如[specked2527.github.io](https://github.com/specked2527/specked2527.github.io)
 之后点击Generate a new client secret 把Client ID和Client secrets 密码复制到 _config.yml 的 # Gitalk 按要求填写
+（不想开启评论的话把config.yml 的 # Gitalk下面改为 enable: false）
 
 # cdn加速 (可选,你可以不操作这部分)
 能防止gfw国内打不开你的网站
