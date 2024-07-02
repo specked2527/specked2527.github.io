@@ -23,7 +23,8 @@ tags:
   * 如果你安装Python时忘记勾选
     * - [x] Add Python.exe to PATH。 https://blog.csdn.net/l15668952150/article/details/124571667
 
-# 安装方式 选择一个
+# 安装方式
+选择一个
 1. 打开powershell 输入
 ```
  pip install f2    
@@ -121,10 +122,10 @@ proxies:
   * 创建yaml文件后，就不用再次输入
    * 如 `f2 wb --init-config wb.yaml`
 * 不这么做的话你就只能使用 `f2 应用 -M 模式 -u "链接"`
-   * 如 `f2 dy -M one -u "链接"`
-* 你还需要登入网站,记得吗?
+   * 如 `f2 wb -M one -u "链接"`
+* 每个应用你还需要登入网站,记得吗?
   * 输入 `f2 应用 -c app.yaml --auto-cookie edge`
-  * 如 `f2 dy -c app.yaml --auto-cookie edge`
+  * 如 `f2 wb -c app.yaml --auto-cookie edge`
 
 #### 如果出现类似 `Error: No such command 'lrb'`
  * 这说明这功能还没有写，不能用
