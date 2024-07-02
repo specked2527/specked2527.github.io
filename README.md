@@ -101,4 +101,5 @@ tags:								#标签
 在 img 文件夹中可以上传图片
 * 在 header-img: img/这里填写图片名称.jpg 
 * 主页、关于、标签的背景图也是如此 如about.html、 tags.html
+  
 你的github最大只有1 GB容量，所以图片上传前最好先压缩
