@@ -3,11 +3,13 @@
 [specked2527.github.io](http://specked2527.github.io/)  
 [cdn加速版  gg.timefail.xyz](https://gg.timefail.xyz/)  
 
-如果不喜欢 自己搜索其他的
+如果不喜欢 自己搜索其他的 
+
 如 
 * https://github.com/lemonchann/lemonchann.github.io
 * https://github.com/jiwenxing/hexo-blog
-* https://github.com/tomstillcoding/tomstillcoding.github.io 
+* https://github.com/tomstillcoding/tomstillcoding.github.io
+  
 都是fork就能用  
 
 # 教程
@@ -46,10 +48,10 @@ Proxy status 设置为关闭
 
 > 在存储库名称下，单击 “设置”。 如果看不到“设置”选项卡，请选择“”下拉菜单，然后单击“设置”********。
 >
-> 存储库标头的屏幕截图，其中显示了选项卡。 “设置”选项卡以深橙色边框突出显示。
-在边栏的“代码和自动化”部分中，单击“ Pages”。
+> 在边栏的“代码和自动化”部分中，单击“ Pages”。
 >
-> 在“自定义域”下，键入自定义域，然后单击“保存”。 如`gg.timefail.xyz`  
+> 在“自定义域”下，键入自定义域，然后单击“保存”。 如`gg.timefail.xyz`
+> 
 > Enforce HTTPS 设为打开，如果是灰色的不可选，删除自定义域，如`gg.timefail.xyz` ，再重新填写`gg.timefail.xyz` 。时间可能要等待1-9小时
 > 
 > 参考https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site?platform=windows#configuring-a-subdomain
@@ -57,6 +59,19 @@ Proxy status 设置为关闭
 ## 注意
 Proxy status 设置为关闭时，你的cdn加速就失效了。
 
+开启时
+
+Pages的Enforce HTTPS会是灰色的不可选，也就是说不能用https打开了
+
+在Cloudflare dns不用类型CNAME，用类型A能解决这个问题
+```
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+```
+类似
+![](https://github.com/specked2527/specked2527.github.io/blob/master/20200418102632865.png)
 # 补充
 PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked2527.github.io](https://specked2527.github.io/)  
 
@@ -68,8 +83,8 @@ PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked
 ```
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      My First Post 				# 标题 
-subtitle:   Hello World, Hello Blog #副标题
+title:      My First Post 	# 标题 
+subtitle:   Hello World    #副标题
 date:       2017-02-06 				# 时间
 author:     BY 						# 作者
 header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
@@ -83,6 +98,7 @@ tags:								#标签
 
 进入你的博客主页，新的文章将会出现在你的主页上.
 ```
-在 img 文件夹中可以上传图片 在 header-img: img/这里填写图片名称.jpg 
+在 img 文件夹中可以上传图片
+* 在 header-img: img/这里填写图片名称.jpg 
 * 主页、关于、标签的背景图也是如此 如about.html、 tags.html
-* 你的github最大只有1 GB容量，所以图片上传前最好先压缩
+你的github最大只有1 GB容量，所以图片上传前最好先压缩
