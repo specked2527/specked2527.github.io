@@ -21,8 +21,6 @@ https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程
 网站图标：
 在 img 目录下找到删除并替换 favicon.ico 这个图标即可，图标尺寸为32x32。
 
-
-
 # cdn加速 (可选,你可以不操作这部分)
 能防止gfw国内打不开你的网站
 * 需要购买一个域名 Name.com （大约15￥/年）
@@ -76,9 +74,15 @@ Pages的Enforce HTTPS会是灰色的不可选，也就是说不能用https打开
 PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked2527.github.io](https://specked2527.github.io/)  
 
 如何写文章？https://markdown.com.cn/basic-syntax/ 
-* 在 _posts 的文件夹中。创建一个新文件 
+
+删除 _posts 的文件夹，右上角···，选择Delete directory
+* 再左上角 +Add file，新建一个_posts 的文件夹
+* 在 _posts 的文件夹中。+Add file创建一个新文件 
   * 每一篇文章文件命名采用的是`2017-02-04-Hello-2017.md`时间+标题的形式，空格用-替换连接。
 文件的格式是 .md
+
+尝试把下面这个复制到，你的新建文件看看
+
 每个文件开头要填写以下格式
 ```
 ---
@@ -91,13 +95,14 @@ header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 生活
+- 你的标签
 ---
 
-## halo~
->这是你的第一篇博客。
-
+# halo~
+#### 这是你的第一篇博客。
 进入你的博客主页，新的文章将会出现在你的主页上.
 ```
+
 在 img 文件夹中可以上传图片
 * 在 header-img: img/这里填写图片名称.jpg 
 * 主页、关于、标签的背景图也是如此 如about.html、 tags.html
