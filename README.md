@@ -3,19 +3,27 @@
 [specked2527.github.io](http://specked2527.github.io/)  
 [cdn加速版  gg.timefail.xyz](https://gg.timefail.xyz/)  
 
-如果不喜欢 自己搜索其他的 如
-https://github.com/lemonchann/lemonchann.github.io  
-https://github.com/jiwenxing/hexo-blog  
-https://github.com/tomstillcoding/tomstillcoding.github.io  
+如果不喜欢 自己搜索其他的
+如 
+* https://github.com/lemonchann/lemonchann.github.io
+* https://github.com/jiwenxing/hexo-blog
+* https://github.com/tomstillcoding/tomstillcoding.github.io 
 都是fork就能用  
 
 # 教程
 https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程  
-你也可以fork我的  
+注册github账号-点击fork(你也可以fork我的)，填写用户名-打开你的网站
+
+标题，背景内容，`_config.yml`都有说明如何修改，
+
+网站图标：
+在 img 目录下找到删除并替换 favicon.ico 这个图标即可，图标尺寸为32x32。
+
+
 
 # cdn加速 (可选,你可以不操作这部分)
 能防止gfw国内打不开你的网站
-* 需要购买一个域名 Name.com
+* 需要购买一个域名 Name.com （大约15￥/年）
 * 注册cdn账户https://dash.cloudflare.com/
 
 以下是简化操作 如有疑问自行搜索
@@ -31,6 +39,7 @@ root 使用 @
 目标 （必需）
 specked2527.github.io (填你的)
 ```
+Proxy status 设置为关闭 
 
 管理自定义域
 在 GitHub 上，导航到站点的仓库。
@@ -41,9 +50,12 @@ specked2527.github.io (填你的)
 在边栏的“代码和自动化”部分中，单击“ Pages”。
 >
 > 在“自定义域”下，键入自定义域，然后单击“保存”。 如`gg.timefail.xyz`  
->
+> Enforce HTTPS 设为打开，如果是灰色的不可选，删除自定义域，如`gg.timefail.xyz` ，再重新填写`gg.timefail.xyz` 。时间可能要等待1-9小时
+> 
 > 参考https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site?platform=windows#configuring-a-subdomain
->
+ 
+## 注意
+Proxy status 设置为关闭时，你的cdn加速就失效了。
 
 # 补充
 PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked2527.github.io](https://specked2527.github.io/)  
