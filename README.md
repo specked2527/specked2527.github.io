@@ -21,6 +21,11 @@ https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程
 网站图标：
 在 img 目录下找到删除并替换 favicon.ico 这个图标即可，图标尺寸为32x32。
 
+评论：（不想开启评论的话把config.yml 的 # Gitalk下面开头加#，或者直接删除）
+Application name随便填昵称
+Homepage URL和Authorization callback URL填你的网站如[specked2527.github.io](https://github.com/specked2527/specked2527.github.io)
+之后点击Generate a new client secret 把Client ID和Client secrets 密码复制到 _config.yml 的 # Gitalk 按要求填写
+
 # cdn加速 (可选,你可以不操作这部分)
 能防止gfw国内打不开你的网站
 * 需要购买一个域名 Name.com （大约15￥/年）
@@ -61,7 +66,7 @@ Proxy status 设置为关闭时，你的cdn加速就失效了。
 
 Pages的Enforce HTTPS会是灰色的不可选，也就是说不能用https打开了
 
-在Cloudflare dns不用类型CNAME，用类型A能解决这个问题
+在Cloudflare dns添加类型A能解决这个问题
 ```
 185.199.108.153
 185.199.109.153
@@ -78,7 +83,7 @@ PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked
 删除 _posts 的文件夹，右上角···，选择Delete directory
 * 再左上角 +Add file，新建一个_posts 的文件夹
   * 在文件名的输入框中，先输入文件夹的名称，再加上”/”符号，表示这是一个文件夹。如 /_posts
-* 在 _posts 的文件夹中。+Add file创建一个新文件 
+在 _posts 的文件夹中。+Add file创建一个新文件 
   * 每一篇文章文件命名采用的是`2017-02-04-Hello-2017.md`时间+标题的形式，空格用-替换连接。
 文件的格式是 .md
 
