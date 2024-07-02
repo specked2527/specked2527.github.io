@@ -61,7 +61,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: 0    #是否开启Gitalk评论
   clientID: Ov23liuO04M9sWHz0NDL                            #生成的clientID
   clientSecret: c56d5b68987a954a3c6879119f3ff972b3836e24    #生成的clientSecret
   repo: specked2527.github.io    #仓库名称
