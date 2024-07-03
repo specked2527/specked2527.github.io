@@ -48,8 +48,8 @@ tags:
 # 使用方式
 #### `f2 dy -c dy.yaml -u ""`
   1. 单链接下载
-  * 左下角windows图标右键打开powershell 输入`f2 dy --init-config dy.yaml` 
-    在你的powershell显示的 PS C:\Users\x> 位置在C:\Users\x\ 这里的dy.yaml 用记事本打开
+  * 左下角windows图标右键打开powershell，输入`f2 dy --init-config dy.yaml` 
+    在你的powershell显示的 PS C:\Users\x> 位置在这里的dy.yaml 用记事本打开
     把 `mode: null` 改为 `mode: one` 保存 
     * powershell 输入 `f2 dy -c dy.yaml -u ""`
       回车后 按下回车旁边的方向键↑ （你就可以每次按下回车旁边的方向键↑掉用了）
@@ -71,7 +71,17 @@ tags:
 
   你可以把dy.yaml 的模式`mode: one` `mode: post` `mode: like` `mode: live`分别保存为4个文件 名字随意
   * 如 1.yaml 2··3·· 
-    * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把主页的链接，按鼠标右键粘贴到这里"` 
+    * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把主页的链接，按鼠标右键粘贴到这里"`
+***
+#### `f2 dy -c dy.yaml -M 模式 -u ""`
+* 可以临时改变dy.yaml设置的下载模式
+  * 如 * `f2 dy -c dy.yaml -M one -u ""`
+***      
+`f2 dy -c dy.yaml -u ""`和`f2 dy -M one -u "链接"`
+* 这俩非常相似
+  * `f2 dy -c dy.yaml -M one -u ""`可以临时改变dy.yaml设置的下载模式
+  * `f2 dy -M one -u "链接" -c dy.yaml`可以使用你的dy.yaml,而不使用应用默认app.yaml
+    * 注意：-M one或- M 其他模式，会临时覆盖你dy.yaml的下载设置模式
 
 # 另外一种方式 
 #### `f2 dy -c dy.yaml`
@@ -92,6 +102,21 @@ tags:
  * 使用参数 `-M one -M post -M like -M collection` 详情输入 `f2 dy -h` 查看
    * 单链接模式 `f2 dy -M one -u "链接"`
   
+# 配置文件
+#### yaml
+* 配置文件由三部分组成，应用默认(app.yaml)，F2配置文件(conf.yaml)，程序默认配置文件(defaults.yaml)。
+  * 应用默认(app.yaml)：用来保存所有应用不常变动的配置，例如的cookie、文件名模板、下载路径、连接超时时间、超时重试次数等。
+  * F2配置文件(conf.yaml)：用来保存F2的配置，例如不同应用的计算参数和代理
+  * 程序默认配置文件(defaults.yaml)：用来保存各个app的初始化默认配置模板，***请不要修改与使用它。***
+* 自定义yaml
+  * 你可以根据喜好选择，使用应用默认(app.yaml)，还是你创建的yaml
+    * `f2 应用 --init-config 随意文件名.yaml`
+      * 如 `f2 wb --init-config wb.yaml`
+* 当你使用自定义文件.yaml
+  * `f2 dy -c dy.yaml -u ""`
+* 当你使用应用默认(app.yaml)
+  * `f2 dy -u ""`
+    
 # 注意 
 ####  [SSL: WRONG_VERSION_NUMBER] 
 
