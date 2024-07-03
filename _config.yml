@@ -99,8 +99,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "",
-        href: "http://zhengwuyang.com"
+        title: "螺莉莉数据中心",
+        href: "https://roriri.one/"
     },{
         title: "",
         href: "http://www.jianshu.com/u/e71990ada2fd"
