@@ -73,9 +73,12 @@ tags:
   * 如 1.yaml 2··3·· 
     * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把主页的链接，按鼠标右键粘贴到这里"`
 ***
-#### `f2 dy -c dy.yaml -M 模式 -u ""`
-* 可以临时改变dy.yaml设置的下载模式
-  * 如 * `f2 dy -c dy.yaml -M one -u ""`
+
+#### `f2 dy -c dy.yaml -M 模式 -u ""` 
+
+     * 可以临时改变dy.yaml设置的下载模式
+       * 如 * `f2 dy -c dy.yaml -M one -u ""`
+       
 ***      
 `f2 dy -c dy.yaml -u ""`和`f2 dy -M one -u "链接"`
 * 这俩非常相似
