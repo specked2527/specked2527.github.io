@@ -26,7 +26,7 @@ tags:
 # 安装方式
 选择一个
 1. 打开powershell 输入
-```
+```py
  pip install f2    
 ``` 
 更新
@@ -73,14 +73,15 @@ tags:
   * 如 1.yaml 2··3·· 
     * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把主页的链接，按鼠标右键粘贴到这里"`
       
-***
-#### `f2 dy -c dy.yaml -M 模式 -u ""` 
-
-     * 可以临时改变dy.yaml设置的下载模式
-       * 如 * `f2 dy -c dy.yaml -M one -u ""`       
 ***      
 
-#### `f2 dy -c dy.yaml -u ""`和`f2 dy -M one -u "链接"`
+#### `f2 dy -c dy.yaml -M 模式 -u ""`
+ * 可以临时改变dy.yaml设置的下载模式 
+   * 如  `f2 dy -c dy.yaml -M one -u ""`
+     
+***      
+
+#### `f2 dy -c dy.yaml -u ""`和`f2 dy -M one -u "链接"` 
 * 这俩非常相似
   * `f2 dy -c dy.yaml -M one -u ""`可以临时改变dy.yaml设置的下载模式
   * `f2 dy -M one -u "链接" -c dy.yaml`可以使用你的dy.yaml,而不使用应用默认app.yaml
