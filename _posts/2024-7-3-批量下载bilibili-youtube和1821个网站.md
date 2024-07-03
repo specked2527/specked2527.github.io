@@ -1,6 +1,6 @@
 ---
 layout:     post   			    # 使用的布局（不需要改）
-title:      批量下载视频bilibili-youtube和1821个网站		# 标题 
+title:      批量下载bilibili、youtube和1821个网站		# 标题 
 subtitle:   教程 #副标题
 date:       2024-7-3		# 时间
 author:     specked2527			# 作者
