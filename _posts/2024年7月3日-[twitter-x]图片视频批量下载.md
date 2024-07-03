@@ -1,0 +1,933 @@
+![](https://article.biliimg.com/bfs/new_dyn/watermark/c2952fae8fd61e3f12062bfea6f920f667904430.png)
+[b站](https://www.bilibili.com/read/cv28918602/)
+
+# 1. 下载 gallery-dl.exe 
+https://github.com/mikf/gallery-dl/releases
+
+# 2. 下载 get-cookiestxt-locally
+https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc 
+
+# 3. get-cookiestxt-locally 点击齿轮图标，设置导出 Mozilla/Netscape 格式。 
+鼠标右键新建一个文本文档.txt，粘贴你刚刚复制的cookie 保存，  保存后改名为cookies.txt,注意不是cookies.txt.txt
+
+# 在gallery-dl.exe文件夹
+鼠标右键新建一个文本文档.txt 
+
+# 填写以下#1内容
+保存后改名为gallery-dl.conf，注意不是gallery-dl.conf.txt
+
+# 4. 开始使用
+在gallery-dl.exe 文件夹 shift + 鼠标右键 选择 在此处打开powershell
+
+输入： ./gallery-dl 你要下载的网页 
+
+列如： ./gallery-dl https://twitter.com/xxx/status/1741322583981908312/photo/1
+
+# 遇到问题？
+尝试
+
+-更新版本 
+
+-重新登入获取cookie.txt
+
+-检查"proxy": "127.0.0.1:7890"你的端口正常？
+
+-使用命令 --cookies-from-browser  在浏览器登入网站后，完全关闭浏览器后使用
+
+-如被限制登入下载，使用小号，或至少等待12小时
+
+# #1 填写以下内容，从下面开始↓，不要复制这段
+***注意必须更改***（"base-directory"下载位置 "cookies"文件位置 "proxy"代理位置 需要根据你的位置情况填写）。
+
+并把我的留下文字删除
+如 `"base-directory": "C:/Users/1",`
+而且不是 `"base-directory": "你想下载到哪里，就填写哪里的路径，列如C:/Users/1",`
+
+```py
+
+{
+
+    "extractor":
+
+    {
+
+        "base-directory": "你想下载到哪里，就填写哪里的路径，列如C:/Users/1",
+
+        "parent-directory": false,
+
+        "postprocessors": null,
+
+        "archive": null,
+
+        "cookies": "你的cookies.txt在哪里，就填写哪里的路径，列如C:/Users/1/cookie.txt" ,
+
+        "cookies-update": true,
+
+        "proxy": "你的代理端口设置是什么。就填写什么，列如127.0.0.1:10809" ,
+
+        "skip": true,
+
+
+
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+
+        "retries": 4,
+
+        "timeout": 30.0,
+
+        "verify": true,
+
+        "fallback": true,
+
+
+
+        "sleep": 0,
+
+        "sleep-request": 0,
+
+        "sleep-extractor": 0,
+
+
+
+        "path-restrict": "auto",
+
+        "path-replace": "_",
+
+        "path-remove": "\\u0000-\\u001f\\u007f",
+
+        "path-strip": "auto",
+
+        "path-extended": true,
+
+
+
+        "extension-map": {
+
+            "jpeg": "jpg",
+
+            "jpe" : "jpg",
+
+            "jfif": "jpg",
+
+            "jif" : "jpg",
+
+            "jfi" : "jpg"
+
+        },
+
+
+
+
+
+        "artstation":
+
+        {
+
+            "external": false,
+
+            "pro-first": true
+
+        },
+
+        "aryion":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "recursive": true
+
+        },
+
+        "bbc": {
+
+            "width": 1920
+
+        },
+
+        "blogger":
+
+        {
+
+            "videos": true
+
+        },
+
+        "cyberdrop":
+
+        {
+
+            "domain": null
+
+        },
+
+        "danbooru":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "external": false,
+
+            "metadata": false,
+
+            "ugoira": false
+
+        },
+
+        "derpibooru":
+
+        {
+
+            "api-key": null,
+
+            "filter": 56027
+
+        },
+
+        "deviantart":
+
+        {
+
+            "client-id": null,
+
+            "client-secret": null,
+
+            "refresh-token": null,
+
+
+
+            "auto-watch": false,
+
+            "auto-unwatch": false,
+
+            "comments": false,
+
+            "extra": false,
+
+            "flat": true,
+
+            "folders": false,
+
+            "group": true,
+
+            "include": "gallery",
+
+            "journals": "html",
+
+            "jwt": false,
+
+            "mature": true,
+
+            "metadata": false,
+
+            "original": true,
+
+            "pagination": "api",
+
+            "public": true,
+
+            "quality": 100,
+
+            "wait-min": 0
+
+        },
+
+        "e621":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "exhentai":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "domain": "auto",
+
+            "limits": true,
+
+            "metadata": false,
+
+            "original": true,
+
+            "sleep-request": 5.0
+
+        },
+
+        "flickr":
+
+        {
+
+            "exif": false,
+
+            "metadata": false,
+
+            "size-max": null,
+
+            "videos": true
+
+        },
+
+        "furaffinity":
+
+        {
+
+            "descriptions": "text",
+
+            "external": false,
+
+            "include": "gallery",
+
+            "layout": "auto"
+
+        },
+
+        "gelbooru":
+
+        {
+
+            "api-key": null,
+
+            "user-id": null
+
+        },
+
+        "gofile": {
+
+            "api-token": null,
+
+            "website-token": null
+
+        },
+
+        "hentaifoundry":
+
+        {
+
+            "include": "pictures"
+
+        },
+
+        "hitomi":
+
+        {
+
+            "format": "webp",
+
+            "metadata": false
+
+        },
+
+        "idolcomplex":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "sleep-request": 5.0
+
+        },
+
+        "imagechest": {
+
+            "access-token": null
+
+        },
+
+        "imgbb":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "imgur":
+
+        {
+
+            "mp4": true
+
+        },
+
+        "inkbunny":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "orderby": "create_datetime"
+
+        },
+
+        "instagram":
+
+        {
+
+            "api": "rest",
+
+            "cookies": null,
+
+            "include": "posts",
+
+            "order-files": "asc",
+
+            "order-posts": "asc",
+
+            "previews": false,
+
+            "sleep-request": [6.0, 12.0],
+
+            "videos": true
+
+        },
+
+        "khinsider":
+
+        {
+
+            "format": "mp3"
+
+        },
+
+        "luscious":
+
+        {
+
+            "gif": false
+
+        },
+
+        "mangadex":
+
+        {
+
+            "api-server": "https://api.mangadex.org",
+
+            "api-parameters": null,
+
+            "lang": null,
+
+            "ratings": ["safe", "suggestive", "erotica", "pornographic"]
+
+        },
+
+        "mangoxo":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "misskey": {
+
+            "access-token": null,
+
+            "renotes": false,
+
+            "replies": true
+
+        },
+
+        "newgrounds":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "flash": true,
+
+            "format": "original",
+
+            "include": "art"
+
+        },
+
+        "nijie":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "include": "illustration,doujin"
+
+        },
+
+        "nitter": {
+
+            "quoted": false,
+
+            "retweets": false,
+
+            "videos": true
+
+        },
+
+        "oauth":
+
+        {
+
+            "browser": true,
+
+            "cache": true,
+
+            "host": "localhost",
+
+            "port": 6414
+
+        },
+
+        "paheal":
+
+        {
+
+            "metadata": false
+
+        },
+
+        "pillowfort":
+
+        {
+
+            "external": false,
+
+            "inline": true,
+
+            "reblogs": false
+
+        },
+
+        "pinterest":
+
+        {
+
+            "domain": "auto",
+
+            "sections": true,
+
+            "videos": true
+
+        },
+
+        "pixiv":
+
+        {
+
+            "refresh-token": null,
+
+            "include": "artworks",
+
+            "embeds": false,
+
+            "metadata": false,
+
+            "metadata-bookmark": false,
+
+            "tags": "japanese",
+
+            "ugoira": true
+
+        },
+
+        "reactor":
+
+        {
+
+            "gif": false,
+
+            "sleep-request": 5.0
+
+        },
+
+        "reddit":
+
+        {
+
+            "client-id": null,
+
+            "user-agent": null,
+
+            "refresh-token": null,
+
+            "comments": 0,
+
+            "morecomments": false,
+
+            "date-min": 0,
+
+            "date-max": 253402210800,
+
+            "date-format": "%Y-%m-%dT%H:%M:%S",
+
+            "id-min": null,
+
+            "id-max": null,
+
+            "recursion": 0,
+
+            "videos": true
+
+        },
+
+        "redgifs":
+
+        {
+
+            "format": ["hd", "sd", "gif"]
+
+        },
+
+        "sankaku":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "refresh": false
+
+        },
+
+        "sankakucomplex":
+
+        {
+
+            "embeds": false,
+
+            "videos": true
+
+        },
+
+        "skeb":
+
+        {
+
+            "article": false,
+
+            "filters": null,
+
+            "sent-requests": false,
+
+            "thumbnails": false
+
+        },
+
+        "smugmug":
+
+        {
+
+            "videos": true
+
+        },
+
+        "seiga":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "subscribestar":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "tsumino":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "tumblr":
+
+        {
+
+            "avatar": false,
+
+            "external": false,
+
+            "inline": true,
+
+            "posts": "all",
+
+            "offset": 0,
+
+            "original": true,
+
+            "reblogs": true
+
+        },
+
+        "twitter":
+
+        {
+
+            "filename": "\fF {date} {tweet_id} {count-num+1}.{extension}",
+
+            "username": null,
+
+            "password": null,
+
+            "cards": false,
+
+            "conversations": false,
+
+            "pinned": false,
+
+            "quoted": false,
+
+            "replies": true,
+
+            "retweets": false,
+
+            "strategy": null,
+
+            "text-tweets": false,
+
+            "twitpic": false,
+
+            "unique": true,
+
+            "users": "user",
+
+            "videos": true
+
+        },
+
+        "unsplash":
+
+        {
+
+            "format": "raw"
+
+        },
+
+        "vsco":
+
+        {
+
+            "videos": true
+
+        },
+
+        "wallhaven":
+
+        {
+
+            "api-key": null,
+
+            "metadata": false,
+
+            "include": "uploads"
+
+        },
+
+        "weasyl":
+
+        {
+
+            "api-key": null,
+
+            "metadata": false
+
+        },
+
+        "weibo":
+
+        {
+
+            "filename":"{status[date]}_{num}_.{extension}",
+
+            "livephoto": true,
+
+            "retweets": true,
+
+            "videos": true
+
+        },
+
+        "ytdl":
+
+        {
+
+            "enabled": false,
+
+            "format": null,
+
+            "generic": true,
+
+            "logging": true,
+
+            "module": null,
+
+            "raw-options": null
+
+        },
+
+        "zerochan":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "metadata": false
+
+        },
+
+        "booru":
+
+        {
+
+            "tags": false,
+
+            "notes": false
+
+        }
+
+    },
+
+
+
+    "downloader":
+
+    {
+
+        "filesize-min": null,
+
+        "filesize-max": null,
+
+        "mtime": true,
+
+        "part": true,
+
+        "part-directory": null,
+
+        "progress": 3.0,
+
+        "rate": null,
+
+        "retries": 4,
+
+        "timeout": 30.0,
+
+        "verify": true,
+
+
+
+        "http":
+
+        {
+
+            "adjust-extensions": true,
+
+            "chunk-size": 32768,
+
+            "headers": null,
+
+            "validate": true
+
+        },
+
+
+
+        "ytdl":
+
+        {
+
+            "format": null,
+
+            "forward-cookies": false,
+
+            "logging": true,
+
+            "module": null,
+
+            "outtmpl": null,
+
+            "raw-options": null
+
+        }
+
+    },
+
+
+
+    "output":
+
+    {
+
+        "mode": "auto",
+
+        "progress": true,
+
+        "shorten": true,
+
+        "ansi": false,
+
+        "colors": {
+
+            "success": "1;32",
+
+            "skip"   : "2"
+
+        },
+
+        "skip": true,
+
+        "log": "[{name}][{levelname}] {message}",
+
+        "logfile": null,
+
+        "unsupportedfile": null
+
+    },
+
+
+
+    "netrc": false 
+
+}
+
+
+```
