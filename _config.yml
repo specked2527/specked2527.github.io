@@ -12,7 +12,7 @@ github_repo: "https://github.com/specked2527/specked2527.github.io" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals"
-sidebar-avatar: /img/IMG_20240613_174502_796.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/ab.gif      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
