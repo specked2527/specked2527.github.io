@@ -36,7 +36,8 @@ https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckben
 如 `yt-dlp https://www.bilibili.com/video/BV1df4y1i7yi/ -F `
 * 根据ID数字，选择audio only，FILESIZE最大的那个
   * yt-dlp 链接 -f 那个数字
-  * 在相同的网站下，这个数字是固定的
+    * 在相同的网站下，这个数字是固定的
+    * 如 `yt-dlp https://www.bilibili.com/video/BV1df4y1i7yi/ -f 30280 `
 
 如果报错
 把链接加上英语的""
