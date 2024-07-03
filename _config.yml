@@ -4,10 +4,10 @@ SEOTitle: 不会起名|blog
 header-img: img/IMG_20240613_174502_796.jpg
 email: ""
 description: "Every failed."
-keyword: " "
+keyword: "linux，ios，windows "
 url: "specked2527.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/specked2527.github.io.git" # you code repository
+github_repo: "https://github.com/specked2527/specked2527.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
