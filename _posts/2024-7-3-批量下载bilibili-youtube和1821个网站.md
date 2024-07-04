@@ -14,7 +14,7 @@ tags:
 [支持1821个网站](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
 [官网](https://github.com/yt-dlp/yt-dlp/)
 
-![](https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg)
+![p](https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg)
 
 # 1. 下载 yt-dlp.exe
 https://github.com/yt-dlp/yt-dlp/tags
