@@ -65,8 +65,11 @@ Proxy status 设置为关闭
 ## 注意
 Proxy status 设置为关闭时，你的cdn加速就失效了。
 开启时，Pages的Enforce HTTPS会是灰色的不可选，也就是说不能用https打开了
+在 CloudFlare 的 SSL/TLS 菜单里将「SSL/TLS 加密模式」设置为完全（Strict）即可。
 
-在Cloudflare dns添加类型A能解决这个问题
+或者
+
+在Cloudflare dns添加类型A
 ```
 185.199.108.153
 185.199.109.153
