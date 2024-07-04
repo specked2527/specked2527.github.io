@@ -15,7 +15,7 @@ tags:
 [官网](https://github.com/yt-dlp/yt-dlp/)
 
 ![p](https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg)
-[![YT-DLP](https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg)](#readme)
+
 # 1. 下载 yt-dlp.exe
 https://github.com/yt-dlp/yt-dlp/tags
 
