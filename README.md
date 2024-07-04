@@ -88,6 +88,7 @@ PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked
 
 #### 如何写文章？
 https://markdown.com.cn/basic-syntax/ 
+
 首先
 删除 _posts 的文件夹，右上角···，选择Delete directory
 * 再左上角 +Add file，新建一个_posts 的文件夹
