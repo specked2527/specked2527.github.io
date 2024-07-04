@@ -67,7 +67,7 @@ Proxy status 设置为关闭时，你的cdn加速就失效了。
 
 开启时，Pages的Enforce HTTPS会是灰色的不可选，也就是说不能用https打开了
 
-如果开启cdn加速，Proxy status 
+要开启cdn加速和Proxy status 
 
 在 CloudFlare 的 SSL/TLS 菜单里将「SSL/TLS 加密模式」设置为完全（Strict）即可。
 
@@ -122,9 +122,10 @@ tags:								#标签
 * 在 header-img: img/这里填写图片名称.jpg 
 * 主页、关于、标签的背景图也是如此 如about.html、 tags.html
 #### 容量限制  
-你的github最大只有1 GB容量，所以图片上传前最好先压缩
+你的github最大只有1 GB容量，所以图片上传前最好先压缩。
+搜索在线图片压缩网站
 #### 隐藏文章
-把你的_posts里面的文章，直接下载或复制到微信、手机便签后删除
+把你_posts里面的文章，直接下载或复制到微信、手机便签、之后删除
 #### 置顶文章
 把发布时间改为未来2077-01-01
 
