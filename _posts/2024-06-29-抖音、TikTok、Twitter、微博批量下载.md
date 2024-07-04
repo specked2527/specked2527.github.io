@@ -1,13 +1,13 @@
 ---
 layout:     post   			    # 使用的布局（不需要改）
-title:      抖音、TikTok、Twitter、微博 批量下载				# 标题 
+title:      抖音、TikTok、Twitter、微博批量下载				# 标题 
 subtitle:   教程 #副标题
 date:       2024-06-29			# 时间
 author:     specked2527			# 作者
 header-img: img/IMG_20240613_174502_796.jpg 	#这篇文章标题背景图片
 catalog:    true 				    # 是否归档
 tags:		
-- 生活		   #标签
+- 教程		   #标签
     
 --- 
 
