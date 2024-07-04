@@ -1,13 +1,13 @@
 ---
 layout:     post   			    # 使用的布局（不需要改）
-title:      批量下载bilibili、youtube和1821个网站		# 标题 
-subtitle:   教程 #副标题
+title:      批量下载bilibili-youtube和1821个网站		# 标题 
+subtitle:   yt-dlp.exe #副标题
 date:       2024-7-3		# 时间
 author:     specked2527			# 作者
 header-img: img/IMG_20240613_174502_796.jpg 	#这篇文章标题背景图片
 catalog:    true 				    # 是否归档
 tags:		
-- 生活		   #标签
+- 教程	   #标签
     
 --- 
 
