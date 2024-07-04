@@ -83,10 +83,12 @@ Proxy status 设置为关闭时，你的cdn加速就失效了。
 类似
 ![](https://github.com/specked2527/specked2527.github.io/blob/master/20200418102632865.png)
 # 补充
+#### 可以设置你的地址
 PC网页模式 右上角About 的齿轮图标  可以设置你的地址 [specked2527.github.io](https://specked2527.github.io/)  
 
-如何写文章？https://markdown.com.cn/basic-syntax/ 
-
+#### 如何写文章？
+https://markdown.com.cn/basic-syntax/ 
+首先
 删除 _posts 的文件夹，右上角···，选择Delete directory
 * 再左上角 +Add file，新建一个_posts 的文件夹
   * 在文件名的输入框中，先输入文件夹的名称，再加上”/”符号，表示这是一个文件夹。如 /_posts
@@ -114,9 +116,16 @@ tags:								#标签
 #### 这是你的第一篇博客。
 进入你的博客主页，新的文章将会出现在你的主页上.
 ```
-
+#### 上传图片
 在 img 文件夹中可以上传图片
 * 在 header-img: img/这里填写图片名称.jpg 
 * 主页、关于、标签的背景图也是如此 如about.html、 tags.html
-  
+#### 容量限制  
 你的github最大只有1 GB容量，所以图片上传前最好先压缩
+#### 隐藏文章
+把你的_posts里面的文章，直接下载或复制到微信、手机便签后删除
+#### 置顶文章
+把发布时间改为未来2077-01-01
+
+如`date:       2077-01-01 			# 时间`
+
