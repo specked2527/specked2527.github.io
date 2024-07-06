@@ -77,9 +77,9 @@ tags:
 
 #### `f2 dy -c dy.yaml -M one -u ""`
  * 可以临时改变dy.yaml设置的下载模式 `-M one` `-M post` `-M like` `-M live`
-   * 如  `f2 dy -c dy.yaml -M one -u ""`
+   * 如单链接下载  `f2 dy -c dy.yaml -M one -u ""`
      
-***      
+   
 
 #### `f2 dy -c dy.yaml -u ""`和`f2 dy -M one -u ""` 
 * 这俩非常相似
@@ -87,7 +87,13 @@ tags:
   * `f2 dy -M one -u "" -c dy.yaml`可以使用你的dy.yaml,而不使用应用默认app.yaml
     * 注意：-M one或- M 其他模式，会临时覆盖你dy.yaml的下载设置模式
 
+***   
+
 # 另外一种方式 
+#### `f2 dy -M one -u ""`             
+ * 使用参数 `-M one -M post -M like -M collection` 更多详情输入 `f2 dy -h` 查看
+   * 如 单链接下载 `f2 dy -M one -u ""`
+     
 #### `f2 dy -c dy.yaml`
   * 在dy.yaml 根据你的模式 这里是下载主页 `mode: post` ,把 `url: null`改为 `url: 把主页的链接，按鼠标右键粘贴到这里` 保存
     * 输入 `f2 dy -c dy.yaml` 就可以直接下载主页 其他模式也是如此
@@ -100,11 +106,7 @@ tags:
     ```
        * 输入 `f2 dy -u "链接"` 就可以直接下载单链接 其他模式也是如此 
          * 配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
-           * `pip show f2`展示配置文件的位置
-                   
-#### `f2 dy -M one -u ""`             
- * 使用参数 `-M one -M post -M like -M collection` 更多详情输入 `f2 dy -h` 查看
-   * 单链接模式 `f2 dy -M one -u "链接"`
+           * `pip show f2`展示配置文件的位置           
   
 # 配置文件
 #### yaml
