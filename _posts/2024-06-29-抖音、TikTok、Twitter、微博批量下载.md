@@ -63,7 +63,7 @@ tags:
 
   3. 喜欢页批量下载 
      * 把dy.yaml 的 `mode: null` 改为 `mode: like` 保存
-       输入 `f2 dy -c dy.yaml -u "把主页的链接，按鼠标右键粘贴到这里"` 
+       输入 `f2 dy -c dy.yaml -u "把喜欢页的链接，按鼠标右键粘贴到这里"` 
 
   4. 直播下载
      * 把dy.yaml 的 `mode: null` 改为 `mode: live` 保存
@@ -71,28 +71,28 @@ tags:
 
   你可以把dy.yaml 的模式`mode: one` `mode: post` `mode: like` `mode: live`分别保存为4个文件 名字随意
   * 如 1.yaml 2··3·· 
-    * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把主页的链接，按鼠标右键粘贴到这里"`
+    * 下载时就选某个模式的文件 `f2 dy -c 1.yaml -u "把链接，按鼠标右键粘贴到这里"`
       
 ***      
 
-#### `f2 dy -c dy.yaml -M 模式 -u ""`
- * 可以临时改变dy.yaml设置的下载模式 
+#### `f2 dy -c dy.yaml -M one -u ""`
+ * 可以临时改变dy.yaml设置的下载模式 `-M one` `-M post` `-M like` `-M live`
    * 如  `f2 dy -c dy.yaml -M one -u ""`
      
 ***      
 
-#### `f2 dy -c dy.yaml -u ""`和`f2 dy -M one -u "链接"` 
+#### `f2 dy -c dy.yaml -u ""`和`f2 dy -M one -u ""` 
 * 这俩非常相似
   * `f2 dy -c dy.yaml -M one -u ""`可以临时改变dy.yaml设置的下载模式
-  * `f2 dy -M one -u "链接" -c dy.yaml`可以使用你的dy.yaml,而不使用应用默认app.yaml
+  * `f2 dy -M one -u "" -c dy.yaml`可以使用你的dy.yaml,而不使用应用默认app.yaml
     * 注意：-M one或- M 其他模式，会临时覆盖你dy.yaml的下载设置模式
 
 # 另外一种方式 
 #### `f2 dy -c dy.yaml`
-  * 在dy.yaml 根据你的模式 这里是主页 `mode: post` ,把 `url: null`改为 `url: 把主页的链接，按鼠标右键粘贴到这里` 保存
+  * 在dy.yaml 根据你的模式 这里是下载主页 `mode: post` ,把 `url: null`改为 `url: 把主页的链接，按鼠标右键粘贴到这里` 保存
     * 输入 `f2 dy -c dy.yaml` 就可以直接下载主页 其他模式也是如此
       
-#### `f2 dy -u "链接"`      
+#### `f2 dy -u ""`      
   * 在app.yaml 根据你的模式 这里是单链接 `mode: one`,在`douyin:`下面 按格式添加 
     ```py
         mode: one
@@ -102,8 +102,8 @@ tags:
          * 配置文件的位置 你可以在x:\xxxxxxx\Python\Lib\site-packages\f2\conf\文件夹中找到它们。
            * `pip show f2`展示配置文件的位置
                    
-#### `f2 dy -M one -u "链接"`             
- * 使用参数 `-M one -M post -M like -M collection` 详情输入 `f2 dy -h` 查看
+#### `f2 dy -M one -u ""`             
+ * 使用参数 `-M one -M post -M like -M collection` 更多详情输入 `f2 dy -h` 查看
    * 单链接模式 `f2 dy -M one -u "链接"`
   
 # 配置文件
@@ -149,12 +149,13 @@ proxies:
    * 如 `f2 wb` 就能看到对应的说明
 * 每个应用都要输入一次`f2 应用 --init-config 随意文件名.yaml`
   * 创建yaml文件后，就不用再次输入
-   * 如 `f2 wb --init-config wb.yaml`
-* 不这么做的话你就只能使用 `f2 应用 -M 模式 -u "链接"`
-   * 如 `f2 wb -M one -u "链接"`
+    * 如 `f2 wb --init-config wb.yaml`
+* 不这么做的话你就只能使用
+  *  `f2 应用 -M 模式 -u "链接"`
+    * 如 `f2 wb -M one -u ""`
 * 每个应用你还需要登入网站,记得吗?
   * 输入 `f2 应用 -c app.yaml --auto-cookie edge`
-  * 如 `f2 wb -c app.yaml --auto-cookie edge`
+    * 如 `f2 wb -c app.yaml --auto-cookie edge`
 
 #### 如果出现类似 `Error: No such command 'lrb'`
  * 这说明这功能还没有写，不能用
