@@ -1,6 +1,6 @@
 ---
 layout:     post   			    # 使用的布局（不需要改）
-title:      批量下载bilibili-youtube和1821个网站		# 标题 
+title:      批量下载视频-支持bilibili-youtube和更多1820个网站		# 标题 
 subtitle:   yt-dlp.exe #副标题
 date:       2024-7-3		# 时间
 author:     specked2527			# 作者
@@ -11,7 +11,7 @@ tags:
     
 --- 
 
-[支持1821个网站](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
+[支持1820个网站](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
 [官网](https://github.com/yt-dlp/yt-dlp/)
 
 ![p](https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg)
