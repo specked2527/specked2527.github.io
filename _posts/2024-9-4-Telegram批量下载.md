@@ -10,8 +10,10 @@ tags:
     - 教程
   
 --- 
+
 # 介绍
 https://docs.iyear.me/tdl/zh/​
+
 不限速和可下载私密内容的Telegram批量下载器
 ![](https://docs.iyear.me/tdl/img/logo.png)
 
@@ -74,6 +76,7 @@ https://t.me/iyear
 选择评论链接中的160277数字
 
 这是两个不同的链接，注意
+
 频道链接
 https://t.me/c/1701303402/816709
 评论链接
