@@ -29,11 +29,15 @@ set http_proxy=http://127.0.0.1:端口号
 set https_proxy=http://127.0.0.1:端口号
 ```
 端口号是你的代理软件设置
+
 如
+
 set http_proxy=http://127.0.0.1:10809
 
 以下命令都要加 ./ 开头
+
 如
+
 输入： ./tdl dl -u 链接
 
 # 下载分享链接
@@ -44,7 +48,9 @@ set http_proxy=http://127.0.0.1:10809
 
 多链接模式
 `tdl dl -u 链接 -u 链接`
+
 如
+
 `tdl dl -u https://t.me/tdl/1 -u https://t.me/tdl/2`
 
 # 想一键下载 频道 消息内的回复 可以用两条命令
