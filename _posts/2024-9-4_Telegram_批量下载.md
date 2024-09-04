@@ -1,4 +1,3 @@
-
 ---
 layout:     post   			    # 使用的布局（不需要改）
 title:      Telegram批量下载，不限速私密内容		# 标题 
@@ -9,9 +8,7 @@ header-img: img/IMG_20240613_174502_796.jpg 	#这篇文章标题背景图片
 catalog:    true 				    # 是否归档
 tags:		
     - 教程
-  
 --- 
-
 # 介绍 
 
 https://docs.iyear.me/tdl/zh/​
